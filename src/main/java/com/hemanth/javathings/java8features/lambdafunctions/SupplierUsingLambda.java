@@ -18,7 +18,7 @@ public class SupplierUsingLambda {
 
         String result = listss.stream()
                 .findAny()
-                .orElseGet(() -> "not found any value ");
+                .orElseGet(() -> "not found any value");
 
         System.out.println(result);
     }
