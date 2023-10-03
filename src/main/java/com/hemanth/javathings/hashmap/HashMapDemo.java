@@ -39,7 +39,12 @@ public class HashMapDemo {
         System.out.println(impIDs);
 
         // put if absent
-        impIDs.putIfAbsent("kumar",7);
+        impIDs.putIfAbsent("kumar", 7);
+        System.out.println(impIDs);
+
+        Integer replace = impIDs.replace("kumar", 8);
+        System.out.println(replace);
+
         System.out.println(impIDs);
 
 
