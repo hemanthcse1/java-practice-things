@@ -1,6 +1,6 @@
 package com.hemanth.javathings.java8features.stream.example;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private int id;
     private String name;
@@ -57,5 +57,10 @@ public class Employee {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        return Double.compare(this.salary, o.getSalary());
     }
 }
