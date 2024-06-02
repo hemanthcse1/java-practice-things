@@ -1,4 +1,4 @@
-package com.hemanth.javathings.concreteclass;
+package com.hemanth.javathings.aboutclasses.concreteclass;
 
 public class PartTimeEmployee extends Employee implements Payable{
     private double salary;
