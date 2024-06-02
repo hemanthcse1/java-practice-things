@@ -1,4 +1,4 @@
-package com.hemanth.javathings.concreteclass;
+package com.hemanth.javathings.aboutclasses.concreteclass;
 
 public abstract class Employee {
     private String name;
